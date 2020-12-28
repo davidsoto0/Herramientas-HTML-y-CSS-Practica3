@@ -1,0 +1,61 @@
+body > div.main-container > div > article > section > div > picture > img{
+    display: block;
+    margin: 10px auto 10px;
+    /*Reescalamos la imagen de la portada*/
+    transform:scale(1);
+    transition: transform 1s;
+}
+
+/*Reducimos el escalado la imagen de la portada*/
+body > div.main-container > div > article > section > div > picture > img:hover{
+    transform:scale(0.9);
+}
+
+/*Imagen de la contraportada*/
+body > div.main-container > div > article > section > div > img.Contraportada{
+    float:left;
+    margin: 20px;
+    /*Reescalamos todas la imagen de la contraportada*/
+    transform:scale(1);
+    transition: transform 1s;
+
+}
+
+/*Aumentamos el escalado la imagen de la contraportada*/
+body > div.main-container > div > article > section > div > img.Contraportada:hover{
+    transform:scale(1.1);
+    
+}
+
+/*Imagen de la portada*/
+.Portada{
+    animation: filterBook 5s  infinite;
+}
+@keyframes filterBook {
+    0% {filter: grayscale(0%);}
+    50%  {filter: grayscale(70%);}
+    100% {filter: grayscale(0%);}
+  }
+
+/*Imagen del autor*/
+body > div.main-container > div > article > section > div > a > img.Autor{
+    margin-top: 0;
+    float:right;
+    transform:scale(1);
+    clip-path: circle(100px at center);
+    transition: clip-path 2s;
+}
+body > div.main-container > div > article > section > div > a > img.Autor:hover{
+    clip-path: circle(120px at center);
+
+}
+
+/*Decorador de los títulos*/
+a.TituloAutor{
+    text-decoration: none;
+    color: black;
+}
+a.TituloAutor:hover{
+    text-decoration: underline;
+    color: rgb(192, 77, 23);
+}

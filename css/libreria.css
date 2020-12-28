@@ -1,0 +1,10 @@
+
+/*Reescalamos todas las imágenes*/
+div > img{
+    transform:scale(1);
+    transition: transform 1s;
+}
+/*Reducimos el secalado de todas las imágenes*/
+div > img:hover{
+    transform:scale(0.9);
+}
