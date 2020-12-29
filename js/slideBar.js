@@ -5,6 +5,28 @@ var textId = ["textoAutores", "textoLibrosDestacados"];
 showSlides(1, 0);
 showSlides(1, 1);
 
+var prev = document.getElementById('prev');
+var prev2 = document.getElementById('prev2');
+var next = document.getElementById('next');
+var next2 = document.getElementById('next2');
+
+
+prev.addEventListener("click", function () {
+    plusSlides(-1, 0);
+});
+
+next.addEventListener("click", function () {
+    plusSlides(1, 0);
+});
+
+prev2.addEventListener("click", function () {
+    plusSlides(-1, 1);
+});
+
+next2.addEventListener("click", function () {
+    plusSlides(1, 1);
+});
+
 function plusSlides(n, no) {
     showSlides(slideIndex[no] += n, no);
 }
