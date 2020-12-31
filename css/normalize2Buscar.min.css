@@ -146,4 +146,8 @@ th{
     padding:0
 }
 
+a:active,
+a:hover{
+    outline:0
+}
 
