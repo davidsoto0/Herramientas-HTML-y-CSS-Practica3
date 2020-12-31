@@ -1,0 +1,81 @@
+html{
+    font-family:sans-serif;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+
+body{
+    margin:0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary
+{
+    display:block
+}
+
+a{
+    background-color:transparent
+}
+
+b,
+strong{
+    font-weight:700
+}
+
+h1{
+    font-size:2em;
+    margin:.67em 0
+}
+
+img{
+    border:0
+}
+
+a:active,
+a:hover{
+    outline:0
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea{
+    color:inherit;
+    font:inherit;
+    margin:0
+}
+
+button{
+    overflow:visible
+}
+
+button,
+select{
+    text-transform:none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit]{
+    -webkit-appearance:button;
+    cursor:pointer
+}
+
+input{
+    line-height:normal
+}
