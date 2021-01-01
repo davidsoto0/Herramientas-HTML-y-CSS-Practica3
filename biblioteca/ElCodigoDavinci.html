@@ -9,12 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="../img/apple-touch-icon.webp">
 
-    <link rel="stylesheet" href="../css/normalize.min.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/libros.css">
-
-    <link rel="preload" href="../css/normalize2.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="../css/normalize.min.css" media="print" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="../css/normalize2.min.css" media="print" onload="if(media!='all')media='all'">
+    <link rel="stylesheet preload" href="../css/main1.css" as="style">
+    <link rel="stylesheet" href="../css/main2.css" media="print" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="../css/libros.css" media="print" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="../css/footer.css" media="print" onload="if(media!='all')media='all'">
 </head>
 
 <body>
